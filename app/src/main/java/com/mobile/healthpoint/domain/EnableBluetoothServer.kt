@@ -14,9 +14,7 @@ import io.reactivex.subjects.Subject
 import java.io.IOException
 import javax.inject.Inject
 
-/**
- * Created by arturosilva on 13/7/17. Name of the package com.mobile.healthpoint.domain, proyect HealthPoint in date 13/7/17
- */
+
 class EnableBluetoothServer(context: Context) {
     private var messageBluetooth: String = String()
     private var observableMessage: Subject<String> = PublishSubject.create()
