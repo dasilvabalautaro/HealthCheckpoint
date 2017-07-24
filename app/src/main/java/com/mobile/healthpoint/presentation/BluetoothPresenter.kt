@@ -6,9 +6,7 @@ import com.mobile.healthpoint.domain.EnableBluetoothServer
 import io.reactivex.subjects.Subject
 import javax.inject.Inject
 
-/**
- * Created by arturosilva on 13/7/17. Name of the package com.mobile.healthpoint.presentation, proyect HealthPoint in date 13/7/17
- */
+
 class BluetoothPresenter(val context: Context) {
 
     @Inject
